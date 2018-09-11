@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.shakil"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.SEND_SMS"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="com.shakil.AttendanceSystem"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity android:name="com.shakil.RegisterActivity" android:label="@string/app_name" />
+    <activity android:name="com.shakil.TestActivity"  android:label="@string/app_name" />
+    <activity android:name="com.shakil.ManageActivity"  android:label="@string/app_name" />
+    <activity android:name="com.shakil.AttendanceActivity"  android:label="@string/app_name" />
+    <activity android:name="com.shakil.Register_adminActivity"  android:label="@string/app_name" /> 
+     <activity android:name="com.shakil.Admin_homeActivity"  android:label="@string/app_name" /> 
+     <activity android:name="com.shakil.StudentActivity"  android:label="@string/app_name" /> 
+     <activity android:name="com.shakil.FactultyActivity"  android:label="@string/app_name" /> 
+      <activity android:name="com.shakil.ViewActivity"  android:label="@string/app_name" />
+      <activity android:name="com.shakil.Admin_register"  android:label="@string/app_name" />  
+    </application>
+</manifest>
